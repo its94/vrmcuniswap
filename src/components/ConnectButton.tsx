@@ -54,17 +54,17 @@ export default function ConnectButton({ handleOpenModal }: Props) {
   ) : (
     <Button
       onClick={handleConnectWallet}
-      bg="rgb(253, 234, 241)"
-      color="rgb(213, 0, 102)"
+      bg="rgb(8 51 104)"
+      color="rgb(255 255 255)"
       fontSize="1rem"
       fontWeight="semibold"
       borderRadius="xl"
-      border="0.06rem solid rgb(253, 234, 241)"
+      border="0.06rem solid rgb(255 255 255)"
       _hover={{
-        borderColor: "rgb(213, 0, 102)",
+        borderColor: "rgb(255 255 255)",
       }}
       _active={{
-        borderColor: "rgb(213, 0, 102)",
+        borderColor: "rgb(255 255 255)",
       }}
     >
       Connect to a wallet
